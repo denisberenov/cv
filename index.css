@@ -137,8 +137,13 @@ a:hover {
 }
 
 @media (max-width: 700px) {
+    .info {
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center content horizontally */
+    }
+
     .img {
-        height: 50%;
-        margin-top: 10%;
+        margin: 0 auto; /* Centers the image */
     }
 }
